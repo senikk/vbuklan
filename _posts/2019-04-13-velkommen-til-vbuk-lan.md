@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:  "Velkommen til VBUK LAN"
 ---
 
