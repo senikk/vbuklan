@@ -3,6 +3,7 @@ layout: default
 title: VBUK LAN
 ---
 # VBUK LAN
+<a data-nolt="button" href="https://8693075b.nolt.io">Feedback</a><script async src="https://cdn.nolt.io/widgets.js"></script>
 Mer kommer...
 
 <ul>
