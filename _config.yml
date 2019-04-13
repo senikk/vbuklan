@@ -1,6 +1,5 @@
 theme: jekyll-theme-leap-day
 description: VBUK LAN
-permalink: /:blog/:year/:month/:day/:title
 navigation:
   - title: VBUK LAN
     url: /index.md
