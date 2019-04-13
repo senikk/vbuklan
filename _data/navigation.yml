@@ -1,6 +1,6 @@
 - name: VBUK LAN
-  link: /
+  link: /vbuklan/
 - name: Om
-  link: /about.md
+  link: /vbuklan/about.md
 - name: Blogg
-  link: /blog.html
+  link: /vbuklan/blog.html
