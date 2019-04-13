@@ -1,0 +1,6 @@
+- name: VBUK LAN
+  link: /
+- name: Om
+  link: /about.md
+- name: Blogg
+  link: /blog.html
