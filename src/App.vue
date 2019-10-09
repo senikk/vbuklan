@@ -17,7 +17,7 @@
 
     <v-content>
       <v-container lighten-5 grid-list-md text-xs-center>
-        <v-layout row wrap>
+        <v-layout row>
           <v-flex xs5>
             <Post title="Velkommen til LAN-party i Turbinen">
               <p>
@@ -29,33 +29,33 @@
               </p>
             </Post>
           </v-flex>
-          <v-flex xs5>
+          <v-flex xs4>
             <Post title="Kjøpe billett?">
               <v-list-item>
                 <v-list-item-content>
-                  Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps appen og gå til menyen.
+                  Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps-appen og gå til menyen.
                 </v-list-item-content>
               </v-list-item>
               <v-img height="350px" width="350px" src="vipps-qr.png" />
-              <v-list-item two-line>
+              <v-list-item three-line>
                 <v-list-item-content>
-                  <v-list-item-title>VBUK LAN billett med bordplassering 
+                  <v-list-item-title>Billett med bordplassering 
                     <v-chip class="ma-2" color="green" text-color="white">150,-</v-chip>
                   </v-list-item-title>
-                  <v-list-item-subtitle>Billett med bordplass. Konsert kl 18 med spillmusikk. Billett for ikke medlemmer av VBUK.</v-list-item-subtitle>
+                  <v-list-item-subtitle wrap>Stikkontakt og ethernet tilkobling. Konsert kl 18 med spillmusikk. Billet for ikke medlem.</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
-              <v-list-item two-line>
+              <v-list-item three-line>
                 <v-list-item-content>
-                  <v-list-item-title>VBUK LAN besøksbillett
+                  <v-list-item-title>Besøksbillett
                     <v-chip class="ma-2" color="green" text-color="white">50,-</v-chip>
                   </v-list-item-title>
-                  <v-list-item-subtitle>Besøksbillett. Trådløst nett. Konsert kl 18 med spillmusikk. Billett for ikke medlemmer av VBUK.</v-list-item-subtitle>
+                  <v-list-item-subtitle>Trådløst nett. Konsert kl 18 med spillmusikk. Billet for ikke medlem.</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
             </Post>
           </v-flex>
-          <v-flex xs2>
+          <v-flex xs3>
             <Post title="Kontakt">
               <v-list two-line>
                 <v-list-item>
