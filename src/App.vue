@@ -42,7 +42,7 @@
                   <v-list-item-title>Billett med bordplassering 
                     <v-chip class="ma-2" color="green" text-color="white">150,-</v-chip>
                   </v-list-item-title>
-                  <v-list-item-subtitle wrap>Stikkontakt og ethernet tilkobling. Konsert kl 18 med spillmusikk. Billet for ikke medlem.</v-list-item-subtitle>
+                  <v-list-item-subtitle wrap>Stikkontakt og ethernet tilkobling. Konsert kl 18 med spillmusikk. Billett for ikke medlem.</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
               <v-list-item three-line>
@@ -50,7 +50,7 @@
                   <v-list-item-title>Besøksbillett
                     <v-chip class="ma-2" color="green" text-color="white">50,-</v-chip>
                   </v-list-item-title>
-                  <v-list-item-subtitle>Trådløst nett. Konsert kl 18 med spillmusikk. Billet for ikke medlem.</v-list-item-subtitle>
+                  <v-list-item-subtitle>Trådløst nett. Konsert kl 18 med spillmusikk. Billett for ikke medlem.</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
             </Post>
