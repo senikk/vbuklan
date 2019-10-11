@@ -18,7 +18,7 @@
     <v-content>
       <v-container lighten-5 grid-list-md text-xs-center>
         <v-layout row>
-          <v-flex xs5>
+          <v-flex xs12 sm6 md5>
             <Post title="Velkommen til LAN-party i Turbinen">
               <p>
               Vaksdal barne- og undomskorps arrangerer LAN-party i Turbinen på Dale i Vaksdal kommune / Hordaland neste år nærmere bestemt lørdag 14. mars 2020. Turbinen befinner seg på Dale i Vaksdal kommune i Hordaland fylke.
@@ -29,7 +29,7 @@
               </p>
             </Post>
           </v-flex>
-          <v-flex xs4>
+          <v-flex x12 sm6 md4>
             <Post title="Kjøpe billett?">
               <v-list-item>
                 <v-list-item-content>
@@ -55,7 +55,7 @@
               </v-list-item>
             </Post>
           </v-flex>
-          <v-flex xs3>
+          <v-flex xs12 sm6 md3>
             <Post title="Kontakt">
               <v-list two-line>
                 <v-list-item>
