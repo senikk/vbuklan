@@ -3,7 +3,7 @@
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>VBUK LAN</span>
-        <span class="font-weight-light">14. mars 2020 kl 08-23</span>
+        <span class="font-weight-light">dato ikke bestemt</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text href="https://vbuk.no" target="_blank">
@@ -16,7 +16,16 @@
         <v-layout row>
           <v-flex xs12 sm6 md5>
             <Post title="Velkommen til LAN-party i Turbinen">
-              <p>
+              <p style="font-size: 10pt; color: red;">
+                Etter nye innskjerpede krav grunnet korona (COVI-19) har styret etter en helhetsvurdering valgt å avlyse VBUK LAN på lørdag 14. mars 2020. Ny dato vil bli satt, men veldig usikkert når det kan gjennomføres. For de som ønsker å game hjemmefra på lørdag så vil vår Discord server på
+                <a
+                  href="https://chat.vbuk.no"
+                >chat.vbuk.no</a> være åpen.
+                <br>
+                <br>Terje Pedersen
+                <br>Leder Vaksdal barne- og ungdomskorps
+              </p>
+              <p style="text-decoration: line-through;">
                 Vaksdal barne- og undomskorps arrangerer LAN-party i Turbinen på Dale i Vaksdal kommune / Hordaland neste år nærmere bestemt lørdag 14. mars 2020. Turbinen befinner seg på Dale i Vaksdal kommune i Hordaland fylke.
                 LANet vil foregå i 15 timer fra kl 08:00 om morgenen til kl 23:00 om kvelden. Arrangementet er rusfritt og åpent for alle.
               </p>
@@ -53,9 +62,13 @@
           <v-flex x12 sm6 md4>
             <Post title="Kjøpe billett?">
               <v-list-item>
-                <v-list-item-content>Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps-appen og gå til menyen.</v-list-item-content>
+                <v-list-item-content
+                  style="text-decoration: line-through;"
+                >Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps-appen og gå til menyen.</v-list-item-content>
               </v-list-item>
+              <!--
               <v-img height="350px" width="350px" src="vipps-qr.png"/>
+              -->
               <v-list-item three-line>
                 <v-list-item-content>
                   <v-list-item-title>
