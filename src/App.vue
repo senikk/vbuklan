@@ -3,7 +3,7 @@
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>VBUK LAN</span>
-        <span class="font-weight-light">dato ikke bestemt</span>
+        <span class="font-weight-light">ny dato ikke bestemt</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text href="https://vbuk.no" target="_blank">
