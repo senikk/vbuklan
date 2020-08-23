@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto">
+  <v-card class="mb-4 mr-2 mx-auto">
     <v-card-text>
         <p class="display-1 text--primary">
             {{title}}

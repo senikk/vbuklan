@@ -3,10 +3,10 @@
     <v-app-bar app>
       <v-toolbar-title class="headline text-uppercase">
         <span>VBUK LAN</span>
-        <span class="font-weight-light">ny dato ikke bestemt</span>
+        <span class="font-weight-light">17. april 2021</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text href="https://vbuk.no" target="_blank">
+      <v-btn text href="https://lan.vbuk.no/vbuk" target="_blank">
         <span class="mr-2">vbuk.no</span>
       </v-btn>
     </v-app-bar>
@@ -16,18 +16,9 @@
         <v-layout row>
           <v-flex xs12 sm6 md5>
             <Post title="Velkommen til LAN-party i Turbinen">
-              <p style="font-size: 10pt; color: red;">
-                Etter nye innskjerpede krav grunnet korona (COVI-19) har styret etter en helhetsvurdering valgt å avlyse VBUK LAN på lørdag 14. mars 2020. Ny dato vil bli satt, men veldig usikkert når det kan gjennomføres. For de som ønsker å game hjemmefra på lørdag så vil vår Discord server på
-                <a
-                  href="https://chat.vbuk.no"
-                >chat.vbuk.no</a> være åpen.
-                <br>
-                <br>Terje Pedersen
-                <br>Leder Vaksdal barne- og ungdomskorps
-              </p>
-              <p style="text-decoration: line-through;">
-                Vaksdal barne- og undomskorps arrangerer LAN-party i Turbinen på Dale i Vaksdal kommune / Hordaland neste år nærmere bestemt lørdag 14. mars 2020. Turbinen befinner seg på Dale i Vaksdal kommune i Hordaland fylke.
-                LANet vil foregå i 15 timer fra kl 08:00 om morgenen til kl 23:00 om kvelden. Arrangementet er rusfritt og åpent for alle.
+              <p>
+                Vaksdal barne- og undomskorps arrangerer LAN-party i Turbinen på Dale i Vaksdal kommune / Vestland fylke neste år nærmere bestemt lørdag 17. april 2021. Turbinen befinner seg på Dale i Vaksdal kommune i Vestland fylke.
+                Datatreffet vil foregå i 15 timer fra kl 08:00 om morgenen til kl 23:00 om kvelden. Arrangementet er rusfritt og åpent for alle.
               </p>
               <p>
                 <iframe
@@ -55,16 +46,14 @@
               <br>
               <p>
                 På VBUK LAN blir det også kiosk som er åpen kl 10-18 og 19-21.
-                Det vil også bli arrangert noen konkurranser underveis deriblant byggekonkurranse i Minecraft, hva som skal bygges annonseres kl 10 på lørdag.
+                Det vil også bli arrangert noen konkurranser underveis deriblant byggekonkurranse i Minecraft, hva som skal bygges annonseres kl 10 lørdag 17.4.2021.
               </p>
             </Post>
           </v-flex>
           <v-flex x12 sm6 md4>
             <Post title="Kjøpe billett?">
               <v-list-item>
-                <v-list-item-content
-                  style="text-decoration: line-through;"
-                >Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps-appen og gå til menyen.</v-list-item-content>
+                <v-list-item-content>Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps-appen og gå til menyen. PS! Dette gjelder frem til 1. desember da Vipps avvikler VippsGo løsningen.</v-list-item-content>
               </v-list-item>
               <!--
               <v-img height="350px" width="350px" src="vipps-qr.png"/>
@@ -77,7 +66,7 @@
                   </v-list-item-title>
                   <v-list-item-subtitle
                     wrap
-                  >Stikkontakt og ethernet tilkobling. Konsert kl 18 med spillmusikk.</v-list-item-subtitle>
+                  >Stikkontakt og ethernet tilkobling. Konsert kl 18.</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
               <v-list-item three-line>
@@ -86,49 +75,13 @@
                     Besøksbillett
                     <v-chip class="ma-2" color="green" text-color="white">50,-</v-chip>
                   </v-list-item-title>
-                  <v-list-item-subtitle>Trådløst nett. Konsert kl 18 med spillmusikk.</v-list-item-subtitle>
+                  <v-list-item-subtitle>Trådløst nett. Konsert kl 18.</v-list-item-subtitle>
                 </v-list-item-content>
               </v-list-item>
             </Post>
           </v-flex>
           <v-flex xs12 sm6 md3>
-            <Post title="Kontakt">
-              <v-list two-line>
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="indigo">mdi-email</v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-content>
-                    <v-list-item-title>
-                      <a href="mailto:post@vbuk.no">post@vbuk.no</a>
-                    </v-list-item-title>
-                    <v-list-item-subtitle>E-post</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="indigo">mdi-phone</v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-content>
-                    <v-list-item-title>
-                      <a href="tel:91334697">91334697</a>
-                    </v-list-item-title>
-                    <v-list-item-subtitle>Telefon</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-                <v-list-item>
-                  <v-list-item-icon>
-                    <v-icon color="indigo">mdi-chat</v-icon>
-                  </v-list-item-icon>
-                  <v-list-item-content>
-                    <v-list-item-title>
-                      <a href="https://chat.vbuk.no">chat.vbuk.no</a>
-                    </v-list-item-title>
-                    <v-list-item-subtitle>Discord vbuklan#9037</v-list-item-subtitle>
-                  </v-list-item-content>
-                </v-list-item>
-              </v-list>
-            </Post>
+            <Contact/>
             <Post title="Sponsor">
               <v-img src="multicom.png"/>
             </Post>
@@ -138,7 +91,8 @@
                 <li>Kl 10 - Byggekonkurranse Minecraft</li>
                 <li>Kl 12 - Karaoke</li>
                 <li>Kl 14 - Instrument racer konkurranse</li>
-                <li>Kl 16 - Quiz Kl 18 - Spillmusikk konsert</li>
+                <li>Kl 16 - Quiz</li>
+                <li>Kl 18 - Spillmusikk konsert</li>
                 <li>
                   Kl 20 - Avstemming byggekonkurranse på Discord (
                   <a
@@ -167,11 +121,13 @@
 
 <script>
 import Post from "./components/Post";
+import Contact from "./components/Contact";
 
 export default {
-  name: "App",
+  name: "LAN",
   components: {
-    Post
+    Post,
+    Contact
   },
   data: () => ({
     //
