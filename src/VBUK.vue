@@ -5,7 +5,7 @@
         <span class="font-weight-light">Vaksdal barne- og ungdomskorps</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text href="/" target="_blank">
+      <v-btn text href="/#/lan" target="_blank">
         <span class="mr-2">VBUK LAN</span>
       </v-btn>
     </v-app-bar>

@@ -10,8 +10,8 @@ Vue.config.productionTip = false;
 Vue.use(VueRouter)
 
 const routes = [
-  { path: '/', component: LAN },
-  { path: '/vbuk', component: VBUK },
+  { path: '/', component: VBUK },
+  { path: '/lan', component: LAN },
   { path: '*', component: NotFound }
 ];
 

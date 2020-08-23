@@ -6,7 +6,7 @@
         <span class="font-weight-light">17. april 2021</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text href="/#/vbuk" target="_blank">
+      <v-btn text href="/" target="_blank">
         <span class="mr-2">OM VBUK</span>
       </v-btn>
     </v-app-bar>
