@@ -18,7 +18,7 @@
               <p>               
                 Vaksdal barne- og undomskorps holder til i Vaksdal kommune, Vestland fylke og har sin hovedbase i nye Dale skule. 
                 Vi rekrutterer fra alle skolene i kommunen. Korpset har janitsjar besetning og dirigeres av trombonist og kulturskolelærer Ole Kristian Bonden.
-                Det er bare til å slå på tråden med leder Terje Pedersen, tlf 913 34 697.
+                Det er bare til å slå på tråden til leder Terje Pedersen, tlf 913 34 697.
 
                 <v-data-table
                   :headers="rehearsalh"
@@ -43,7 +43,7 @@
             </Post>
           </v-flex>
           <v-flex xs10 sm6 md3>
-            <img src="note-logo.jpg" width="100%"/>
+            <img src="note-logo.jpg" width="97%"/>
             <Contact/>
           </v-flex>
         </v-layout>
