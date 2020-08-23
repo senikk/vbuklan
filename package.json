@@ -13,6 +13,7 @@
     "core-js": "^2.6.5",
     "gh-pages": "^2.1.1",
     "vue": "^2.6.10",
+    "vue-router": "^3.4.3",
     "vuetify": "^2.1.0"
   },
   "devDependencies": {
@@ -51,5 +52,5 @@
     "> 1%",
     "last 2 versions"
   ],
-  "homepage": "https://senikk.github.io/vbuklan"
+  "homepage": "https://senikk.github.io/vbuklan/"
 }

@@ -6,7 +6,7 @@
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text href="/" target="_blank">
-        <span class="mr-2">x lan.vbuk.no</span>
+        <span class="mr-2">VBUK LAN</span>
       </v-btn>
     </v-app-bar>
 

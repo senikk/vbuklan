@@ -6,8 +6,8 @@
         <span class="font-weight-light">17. april 2021</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text href="/vbuk" target="_blank">
-        <span class="mr-2">vbuk.no</span>
+      <v-btn text href="/#/vbuk" target="_blank">
+        <span class="mr-2">OM VBUK</span>
       </v-btn>
     </v-app-bar>
 
@@ -128,9 +128,6 @@ export default {
   components: {
     Post,
     Contact
-  },
-  data: () => ({
-    //
-  })
+  }
 };
 </script>
