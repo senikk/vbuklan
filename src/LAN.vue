@@ -82,7 +82,7 @@
           </v-flex>
           <v-flex xs12 sm6 md3>
             <Contact/>
-            <Post title="Sponsor">
+            <Post>
               <v-img src="multicom.png"/>
             </Post>
             <Post title="Program">
