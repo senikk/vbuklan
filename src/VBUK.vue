@@ -43,6 +43,7 @@
             </Post>
           </v-flex>
           <v-flex xs10 sm6 md3>
+            <Newsletter form="2582585:r1s2y0"/>
             <img src="note-logo.jpg" width="97%"/>
             <Contact/>
           </v-flex>
@@ -55,11 +56,12 @@
 <script>
 import Post from "./components/Post";
 import Contact from "./components/Contact";
+import Newsletter from "./components/Newsletter";
 
 export default {
   name: "VBUK",
   components: {
-    Post, Contact
+    Post, Contact, Newsletter
   },
   data: () => ({
     rehearsalh: [
@@ -121,7 +123,8 @@ export default {
         title: "Foreldremøte nye aspiranter",
         location: "Dale skule",
         day: "Onsdag 23.9 2020",
-        time: "17:00-17:30"
+        time: "17:00-17:30",
+        website: "https://møte.vbuk.no"
       },
       {
         title: "Oppstart aspirantkorps Dale",

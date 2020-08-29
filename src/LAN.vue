@@ -79,12 +79,6 @@
                 </v-list-item-content>
               </v-list-item>
             </Post>
-          </v-flex>
-          <v-flex xs12 sm6 md3>
-            <Contact/>
-            <Post>
-              <v-img src="multicom.png"/>
-            </Post>
             <Post title="Program">
               <ul>
                 <li>Kl 08 - Registrering, finne sin plass</li>
@@ -113,6 +107,13 @@
               </ul>
             </Post>
           </v-flex>
+          <v-flex xs12 sm6 md3>
+            <Newsletter form="2582612:q4l4t5"/>
+            <Contact/>
+            <Post>
+              <v-img src="multicom.png"/>
+            </Post>
+          </v-flex>
         </v-layout>
       </v-container>
     </v-content>
@@ -122,12 +123,12 @@
 <script>
 import Post from "./components/Post";
 import Contact from "./components/Contact";
+import Newsletter from "./components/Newsletter";
 
 export default {
   name: "LAN",
   components: {
-    Post,
-    Contact
+    Post, Contact, Newsletter
   }
 };
 </script>
