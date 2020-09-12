@@ -121,7 +121,7 @@ export default {
     calendar: [
       {
         title: "Foreldremøte nye aspiranter",
-        location: "Dale skule",
+        location: "Videomøte",
         day: "Onsdag 23.9 2020",
         time: "17:00-17:30",
         website: "https://møte.vbuk.no"
