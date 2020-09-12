@@ -51,44 +51,29 @@
             </Post>
           </v-flex>
           <v-flex x12 sm6 md4>
-            <Post title="Kjøpe billett?">
-              <v-list-item>
-                <v-list-item-content>Billetter til VBUK LAN kan kjøpes fra Vipps-menyen på Vippsnr 11529. Skann QR-koden nedenfor med Vipps-appen og gå til menyen. PS! Dette gjelder frem til 1. desember da Vipps avvikler VippsGo løsningen.</v-list-item-content>
-              </v-list-item>
-              <!--
-              <v-img height="350px" width="350px" src="vipps-qr.png"/>
-              -->
+            <Post title="Billetter">
               <v-list-item three-line>
                 <v-list-item-content>
-                  <v-list-item-title>
-                    Billett med bordplassering
-                    <v-chip class="ma-2" color="green" text-color="white">150,-</v-chip>
-                  </v-list-item-title>
-                  <v-list-item-subtitle
-                    wrap
-                  >Stikkontakt og ethernet tilkobling. Konsert kl 18.</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-              <v-list-item three-line>
-                <v-list-item-content>
-                  <v-list-item-title>
-                    Besøksbillett
-                    <v-chip class="ma-2" color="green" text-color="white">50,-</v-chip>
-                  </v-list-item-title>
-                  <v-list-item-subtitle>Trådløst nett. Konsert kl 18.</v-list-item-subtitle>
+                  Det selges billetter til mørk sone i sal, lys sone i foaje og til live stream.<br><br>
+                  <a target="_blank" style="font-size: 14pt;" href="https://vbuk.ticketco.events/no/nb/e/vbuklan2021/lan.vbuk.no">Klikk her for å kjøpe billett</a>
                 </v-list-item-content>
               </v-list-item>
             </Post>
+            <Post title="Korona og live stream">
+              Vi satser på at hver deltager får vært sitt store bord slik at man holder avstand. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 så 
+              vil biletten bli omgjort til live stream billett.<br><br>
+              Live stream vil det uansett bli enten fra Turbinen eller fra et passende sted om det ikke lar seg gjøre med fysisk datatreff slik at planlagte konkurranser vil bli gjennomført uansett.
+            </Post>
             <Post title="Program">
               <ul>
-                <li>Kl 08 - Registrering, finne sin plass</li>
-                <li>Kl 10 - Byggekonkurranse Minecraft</li>
-                <li>Kl 12 - Karaoke</li>
+                <li>Kl 08 - Registrering</li>
+                <li>Kl 10 - Minecraft byggekonkurranse #1</li>
+                <li>Kl 12 - Minecraft byggekonkurranse #2</li>
                 <li>Kl 14 - Instrument racer konkurranse</li>
                 <li>Kl 16 - Quiz</li>
-                <li>Kl 18 - Spillmusikk konsert</li>
+                <li>Kl 18 - VBUK konsert</li>
                 <li>
-                  Kl 20 - Avstemming byggekonkurranse på Discord (
+                  Kl 20 - Avstemming byggekonkurranser på Discord (
                   <a
                     href="https://chat.vbuk.no"
                   >chat.vbuk.no</a>) #konkurranse
