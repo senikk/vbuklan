@@ -3,6 +3,17 @@
         <v-list two-line>
         <v-list-item>
             <v-list-item-icon>
+            <v-icon color="indigo">mdi-chat</v-icon>
+            </v-list-item-icon>
+            <v-list-item-content>
+            <v-list-item-title>
+                <a href="https://discord.vbuk.no">discord.vbuk.no</a>
+            </v-list-item-title>
+            <v-list-item-subtitle>Discord</v-list-item-subtitle>
+            </v-list-item-content>
+        </v-list-item>
+        <v-list-item>
+            <v-list-item-icon>
             <v-icon color="indigo">mdi-email</v-icon>
             </v-list-item-icon>
             <v-list-item-content>
@@ -21,17 +32,6 @@
                 <a href="tel:91334697">91334697</a>
             </v-list-item-title>
             <v-list-item-subtitle>Telefon</v-list-item-subtitle>
-            </v-list-item-content>
-        </v-list-item>
-        <v-list-item>
-            <v-list-item-icon>
-            <v-icon color="indigo">mdi-chat</v-icon>
-            </v-list-item-icon>
-            <v-list-item-content>
-            <v-list-item-title>
-                <a href="https://chat.vbuk.no">chat.vbuk.no</a>
-            </v-list-item-title>
-            <v-list-item-subtitle>Discord vbuklan#9037</v-list-item-subtitle>
             </v-list-item-content>
         </v-list-item>
         </v-list>

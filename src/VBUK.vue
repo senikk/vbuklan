@@ -120,27 +120,35 @@ export default {
     ],
     calendar: [
       {
-        title: "Foreldremøte nye aspiranter",
-        location: "Videomøte",
-        day: "Onsdag 23.9 2020",
-        time: "17:00-17:30",
-        website: "https://møte.vbuk.no"
+        title: "Planlegging 1 VBUK LAN",
+        location: "Discord",
+        day: "Søndag 7.3.2021",
+        time: "12:00-13:30",
+        website: "https://plan.vbuk.no"
       },
       {
-        title: "Oppstart aspirantkorps Dale",
+        title: "Innspilling til VBUK LAN",
         location: "Dale skule",
-        day: "Onsdag 30.9 2020",
-        time: "16:15-17:15"
+        day: "Søndag 21.3.2021",
+        time: "14:00-16:00"
       },
       {
-        title: "Høstkonsert",
-        location: "Dale skule",
-        day: "Lørdag 14.11 2020",
-        time: "16:00-17:30"
+        title: "Planlegging 2 VBUK LAN",
+        location: "Discord",
+        day: "Lørdag 27.3.2021",
+        time: "12:00-13:30",
+        website: "https://plan.vbuk.no"
+      },
+      {
+        title: "Planlegging 3 VBUK LAN",
+        location: "Discord",
+        day: "Søndag 11.4.2021",
+        time: "12:00-13:30",
+        website: "https://plan.vbuk.no"
       },
       {
         title: "VBUK LAN",
-        location: "Turbinen",
+        location: "Turbinen (?)",
         day: "Lørdag 17.4 2021",
         time: "08:00-23:00",
         website: "https://lan.vbuk.no"

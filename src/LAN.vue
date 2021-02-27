@@ -59,29 +59,25 @@
                 </v-list-item-content>
               </v-list-item>
             </Post>
-            <Post title="Korona og live stream">
-              Vi satser på at hver deltager får vært sitt store bord slik at man holder avstand. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 så 
-              vil biletten bli omgjort til live stream billett.<br><br>
-              Live stream vil det uansett bli enten fra Turbinen eller fra et passende sted om det ikke lar seg gjøre med fysisk datatreff slik at planlagte konkurranser vil bli gjennomført uansett.
+            <Post title="VBUK LAN 2021">
+              Vi satser på at hver deltager får hvert sitt store bord slik at man holder god avstand. Og bestilling av kioskvarer med levering direkte til bord. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 heller så 
+              vil man fortsatt kunne logge seg på hjemmefra på <a href="https://discord.vbuk.no">discord.vbuk.no</a> hvor man får tilgang til lukket innhold ved hjelp av billettreferansen. Så arrangement blir det uansett i år.
             </Post>
-            <Post title="Program">
-              <ul>
-                <li>Kl 08 - Registrering</li>
-                <li>Kl 10 - Minecraft byggekonkurranse #1</li>
-                <li>Kl 12 - Minecraft byggekonkurranse #2</li>
-                <li>Kl 14 - Instrument racer konkurranse</li>
-                <li>Kl 16 - Quiz</li>
-                <li>Kl 18 - VBUK konsert</li>
-                <li>
-                  Kl 20 - Avstemming byggekonkurranser på Discord (
-                  <a
-                    href="https://chat.vbuk.no"
-                  >chat.vbuk.no</a>) #konkurranse
-                </li>
-                <li>Kl 22 - Premieutdeling</li>
-                <li>Kl 23 - Ferdig</li>
-              </ul>
+            <Post title="Hva skjer?">
+                <v-data-table
+                  :headers="calendarh"
+                  :items="calendar"
+                  hide-default-footer
+                >
+                  <template v-slot:item.title="{ item }">
+                    <a v-if="item.website" target="_blank" :href="item.website">
+                      {{ item.title }}
+                    </a>
+                    <span v-if="!item.website">{{ item.title }}</span>
+                  </template>
+                </v-data-table>
             </Post>
+            <!--
             <Post title="Regler">
               <ul>
                 <li>Alle inne i hallen må ha adgangsbånd</li>
@@ -91,6 +87,7 @@
                 <li>Spillene du får spille hjemme gjelder også her</li>
               </ul>
             </Post>
+            -->
           </v-flex>
           <v-flex xs12 sm6 md3>
             <Newsletter form="2582612:q4l4t5"/>
@@ -114,6 +111,58 @@ export default {
   name: "LAN",
   components: {
     Post, Contact, Newsletter
-  }
+  },
+  data: () => ({
+    calendarh: [
+      {
+        text: 'Tittel',
+        value: 'title',
+        align: 'left',
+        sortable: false
+      },
+      {
+        text: 'Dag',
+        value: 'day'
+      },
+      {
+        text: 'Tid',
+        value: 'time'
+      },
+      {
+        text: 'Sted',
+        value: 'location'
+      }
+    ],
+    calendar: [
+      {
+        title: "Planlegging 1",
+        location: "Discord",
+        day: "Søndag 7.3.2021",
+        time: "12:00-13:30",
+        website: "https://plan.vbuk.no"
+      },
+      {
+        title: "Planlegging 2",
+        location: "Discord",
+        day: "Lørdag 27.3.2021",
+        time: "12:00-13:30",
+        website: "https://plan.vbuk.no"
+      },
+      {
+        title: "Planlegging 3",
+        location: "Discord",
+        day: "Søndag 11.4.2021",
+        time: "12:00-13:30",
+        website: "https://plan.vbuk.no"
+      },
+      {
+        title: "VBUK LAN",
+        location: "Turbinen (?)",
+        day: "Lørdag 17.4 2021",
+        time: "08:00-23:00",
+        website: "https://lan.vbuk.no"
+      }
+    ]
+  })
 };
 </script>
