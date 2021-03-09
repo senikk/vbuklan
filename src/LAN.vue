@@ -17,8 +17,8 @@
           <v-flex xs12 sm6 md5>
             <Post title="Velkommen til LAN-party i Turbinen">
               <p>
-                Vaksdal barne- og undomskorps arrangerer LAN-party i Turbinen på Dale i Vaksdal kommune / Vestland fylke neste år nærmere bestemt lørdag 17. april 2021. Turbinen befinner seg på Dale i Vaksdal kommune i Vestland fylke.
-                Datatreffet vil foregå i 15 timer fra kl 08:00 om morgenen til kl 23:00 om kvelden. Arrangementet er rusfritt og åpent for alle.
+                Vaksdal barne- og undomskorps arrangerer LAN-party i Turbinen på Dale i Vaksdal kommune / Vestland fylke lørdag 17. april 2021. Turbinen befinner seg på Dale i Vaksdal kommune i Vestland fylke.
+                Arrangementet vil foregå i 15 timer fra kl 08:00 om morgenen til kl 23:00 om kvelden. Arrangementet er rusfritt og åpent for barn og unge under 20 år bosatt i Vaksdal kommune, alle andre kan delta via vår Discord server hvor man kontakter vår billettluke bot med referanse på billett man har kjøpt.
               </p>
               <p>
                 <iframe
@@ -40,27 +40,22 @@
               <ul>
                 <li>PC/konsoll</li>
                 <li>Skjerm</li>
-                <li>Nettverkskabel</li>
+                <li>Nettverkskabel 10m+</li>
                 <li>Strømforgrener om man har behov for flere enn en stikkontakt t.d. PC/konsoll + skjerm</li>
               </ul>
-              <br>
-              <p>
-                På VBUK LAN blir det også kiosk som er åpen kl 10-18 og 19-21.
-                Det vil også bli arrangert noen konkurranser underveis deriblant byggekonkurranse i Minecraft, hva som skal bygges annonseres kl 10 lørdag 17.4.2021.
-              </p>
             </Post>
           </v-flex>
           <v-flex x12 sm6 md4>
             <Post title="Billetter">
               <v-list-item three-line>
                 <v-list-item-content>
-                  Det selges billetter til mørk sone i sal, lys sone i foaje og til live stream.<br><br>
+                  Det selges billetter til mørk sone i sal, lys sone i foaje og til flere kanaler på vår Discord server. Fysisk billett blir omgjort til Discord bille om det skulle bli nye restriksjoner grunnet korona.<br><br>
                   <a target="_blank" style="font-size: 14pt;" href="https://vbuk.ticketco.events/no/nb/e/vbuklan2021/lan.vbuk.no">Klikk her for å kjøpe billett</a>
                 </v-list-item-content>
               </v-list-item>
             </Post>
             <Post title="VBUK LAN 2021">
-              Vi satser på at hver deltager får hvert sitt store bord slik at man holder god avstand. Og bestilling av kioskvarer med levering direkte til bord. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 heller så 
+              Hver deltager får hvert sitt store bord slik at man holder god avstand. Bestilling av kioskvarer med levering direkte til bord. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 heller så 
               vil man fortsatt kunne logge seg på hjemmefra på <a href="https://discord.vbuk.no">discord.vbuk.no</a> hvor man får tilgang til lukket innhold ved hjelp av billettreferansen. Så arrangement blir det uansett i år.
             </Post>
             <Post title="Hva skjer?">
@@ -80,6 +75,7 @@
             <!--
             <Post title="Regler">
               <ul>
+                <li>Fysiske billettet kun tilgjengelig for barn og unge under 20 år bosatt i Vaksdal kommune</li>
                 <li>Alle inne i hallen må ha adgangsbånd</li>
                 <li>Rusfritt arrangement</li>
                 <li>Du er selv ansvarlig for eget utstyr</li>
@@ -94,6 +90,12 @@
             <Contact/>
             <Post>
               <v-img src="multicom.png"/>
+            </Post>
+            <Post>
+              <v-img src="vossmusikk.png"/>
+            </Post>
+            <Post>
+              <v-img src="klatreparken.png"/>
             </Post>
           </v-flex>
         </v-layout>
