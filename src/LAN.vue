@@ -88,15 +88,10 @@
           <v-flex xs12 sm6 md3>
             <Newsletter form="2582612:q4l4t5"/>
             <Contact/>
-            <Post>
-              <v-img src="multicom.png"/>
-            </Post>
-            <Post>
-              <v-img src="vossmusikk.png"/>
-            </Post>
-            <Post>
-              <v-img src="klatreparken.png"/>
-            </Post>
+            <Ad src="multicom.png"/>
+            <Ad src="vossmusikk.png"/>
+            <Ad src="klatreparken.png"/>
+            <Ad src="modalen-kommune.png"/>
           </v-flex>
         </v-layout>
       </v-container>
@@ -108,11 +103,12 @@
 import Post from "./components/Post";
 import Contact from "./components/Contact";
 import Newsletter from "./components/Newsletter";
+import Ad from "./components/Ad";
 
 export default {
   name: "LAN",
   components: {
-    Post, Contact, Newsletter
+    Post, Contact, Newsletter, Ad
   },
   data: () => ({
     calendarh: [
