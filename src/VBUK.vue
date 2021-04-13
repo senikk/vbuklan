@@ -120,39 +120,12 @@ export default {
     ],
     calendar: [
       {
-        title: "Planlegging 1 VBUK LAN",
-        location: "Discord",
-        day: "Søndag 7.3.2021",
-        time: "12:00-13:30",
-        website: "https://plan.vbuk.no"
-      },
-      {
-        title: "Innspilling til VBUK LAN",
-        location: "Dale skule",
-        day: "Søndag 21.3.2021",
-        time: "14:00-16:00"
-      },
-      {
-        title: "Planlegging 2 VBUK LAN",
-        location: "Discord",
-        day: "Lørdag 27.3.2021",
-        time: "12:00-13:30",
-        website: "https://plan.vbuk.no"
-      },
-      {
-        title: "Planlegging 3 VBUK LAN",
-        location: "Discord",
-        day: "Søndag 11.4.2021",
-        time: "12:00-13:30",
-        website: "https://plan.vbuk.no"
-      },
-      {
-        title: "VBUK LAN",
-        location: "Turbinen (?)",
-        day: "Lørdag 17.4 2021",
+        title: "VBUK LAN 2021",
+        location: "Discord/Twitch/Turbinen",
+        day: "Lørdag 17.4.2021",
         time: "08:00-23:00",
-        website: "https://lan.vbuk.no"
-      }
+        website: "https://chat.vbuk.no"
+      },
     ]
   })
 };

@@ -31,6 +31,49 @@
                 ></iframe>
               </p>
             </Post>
+            <Post title="Live stream">
+                Live stream foregår på <a href="https://tv.vbuk.no">tv.vbuk.no</a>
+                <v-data-table
+                  :headers="calendarh"
+                  :items="live"
+                  hide-default-footer
+                >
+                  <template v-slot:item.title="{ item }">
+                    <a v-if="item.website" target="_blank" :href="item.website">
+                      {{ item.title }}
+                    </a>
+                    <span v-if="!item.website">{{ item.title }}</span>
+                  </template>
+                </v-data-table>
+            </Post>
+            <Post title="Hva skjer?">
+              <v-data-table
+                :headers="calendarh"
+                :items="calendar"
+                hide-default-footer
+              >
+                <template v-slot:item.title="{ item }">
+                  <a v-if="item.website" target="_blank" :href="item.website">
+                    {{ item.title }}
+                  </a>
+                  <span v-if="!item.website">{{ item.title }}</span>
+                </template>
+              </v-data-table>
+            </Post>
+          </v-flex>
+          <v-flex x12 sm6 md4>
+            <Post title="Billetter">
+              <v-list-item three-line>
+                <v-list-item-content>
+                  Det selges billetter til mørk sone i sal og til Discord om du ønsker å delta digitalt. Fysisk billett blir omgjort til Discord billet om det skulle bli nye restriksjoner grunnet korona.<br><br>
+                  <a target="_blank" style="font-size: 14pt;" href="https://vbuk.ticketco.events/no/nb/e/vbuklan2021/lan.vbuk.no">Klikk her for å kjøpe billett</a>
+                </v-list-item-content>
+              </v-list-item>
+            </Post>
+            <Post title="VBUK LAN 2021">
+              Hver deltager får hvert sitt store bord slik at man holder god avstand. Bestilling av kioskvarer med levering direkte til bord. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 heller så 
+              vil man fortsatt kunne logge seg på hjemmefra på <a href="https://chat.vbuk.no">chat.vbuk.no</a> hvor man får tilgang til lukket innhold ved hjelp av billettreferansen. Så arrangement blir det uansett i år.
+            </Post>
             <Post title="Hva er et LAN-party?">
               <p>
                 Et LAN-party eller på godt norsk datatreff er et samlingssted hvor man tar med seg sin egen datamaskin, konsoll som t.d. PlayStation eller XBOX og kobler seg til et lokalt nettverk for å spille eller gjøre andre ting sammen.
@@ -44,38 +87,9 @@
                 <li>Strømforgrener om man har behov for flere enn en stikkontakt t.d. PC/konsoll + skjerm</li>
               </ul>
             </Post>
-          </v-flex>
-          <v-flex x12 sm6 md4>
-            <Post title="Billetter">
-              <v-list-item three-line>
-                <v-list-item-content>
-                  Det selges billetter til mørk sone i sal, lys sone i foaje og til flere kanaler på vår Discord server. Fysisk billett blir omgjort til Discord bille om det skulle bli nye restriksjoner grunnet korona.<br><br>
-                  <a target="_blank" style="font-size: 14pt;" href="https://vbuk.ticketco.events/no/nb/e/vbuklan2021/lan.vbuk.no">Klikk her for å kjøpe billett</a>
-                </v-list-item-content>
-              </v-list-item>
-            </Post>
-            <Post title="VBUK LAN 2021">
-              Hver deltager får hvert sitt store bord slik at man holder god avstand. Bestilling av kioskvarer med levering direkte til bord. Hvis det mot formodning ikke skulle gå an å arrangere VBUK LAN fysisk i 2021 heller så 
-              vil man fortsatt kunne logge seg på hjemmefra på <a href="https://discord.vbuk.no">discord.vbuk.no</a> hvor man får tilgang til lukket innhold ved hjelp av billettreferansen. Så arrangement blir det uansett i år.
-            </Post>
-            <Post title="Hva skjer?">
-                <v-data-table
-                  :headers="calendarh"
-                  :items="calendar"
-                  hide-default-footer
-                >
-                  <template v-slot:item.title="{ item }">
-                    <a v-if="item.website" target="_blank" :href="item.website">
-                      {{ item.title }}
-                    </a>
-                    <span v-if="!item.website">{{ item.title }}</span>
-                  </template>
-                </v-data-table>
-            </Post>
-            <!--
             <Post title="Regler">
               <ul>
-                <li>Fysiske billettet kun tilgjengelig for barn og unge under 20 år bosatt i Vaksdal kommune</li>
+                <li>Fysiske billetter kun tilgjengelig for barn og unge under 20 år bosatt i Vaksdal kommune</li>
                 <li>Alle inne i hallen må ha adgangsbånd</li>
                 <li>Rusfritt arrangement</li>
                 <li>Du er selv ansvarlig for eget utstyr</li>
@@ -83,11 +97,11 @@
                 <li>Spillene du får spille hjemme gjelder også her</li>
               </ul>
             </Post>
-            -->
           </v-flex>
           <v-flex xs12 sm6 md3>
             <Newsletter form="2582612:q4l4t5"/>
             <Contact/>
+            <Ad src="vossk.png"/>
             <Ad src="multicom.png"/>
             <Ad src="vossmusikk.png"/>
             <Ad src="klatreparken.png"/>
@@ -131,34 +145,85 @@ export default {
         value: 'location'
       }
     ],
+    live: [
+      {
+        title: "Stream 1 - Terje Pedersen og Emil Walseth (emwaAdventure)",
+        location: "Twitch",
+        day: "Lørdag 17.4.2021",
+        time: "09:00-11:00",
+        website: "https://tv.vbuk.no"
+      },
+      {
+        title: "Stream 2 - Terje Pedersen",
+        location: "Twitch",
+        day: "Lørdag 17.4.2021",
+        time: "16:00-18:00",
+        website: "https://tv.vbuk.no"        
+      },
+      {
+        title: "Stream 3 - Terje Pedersen og Emil Walseth (emwaAdventure)",
+        location: "Twitch",
+        day: "Lørdag 17.4.2021",
+        time: "21:00-23:00",
+        website: "https://tv.vbuk.no"
+      },
+      {
+        title: "Premieutdeling",
+        location: "Twitch",
+        day: "Lørdag 17.4.2021",
+        time: "22:00-",
+        website: "https://tv.vbuk.no"
+      },
+    ],
     calendar: [
       {
-        title: "Planlegging 1",
-        location: "Discord",
-        day: "Søndag 7.3.2021",
-        time: "12:00-13:30",
-        website: "https://plan.vbuk.no"
-      },
-      {
-        title: "Planlegging 2",
-        location: "Discord",
-        day: "Lørdag 27.3.2021",
-        time: "12:00-13:30",
-        website: "https://plan.vbuk.no"
-      },
-      {
-        title: "Planlegging 3",
-        location: "Discord",
-        day: "Søndag 11.4.2021",
-        time: "12:00-13:30",
-        website: "https://plan.vbuk.no"
-      },
-      {
-        title: "VBUK LAN",
-        location: "Turbinen (?)",
-        day: "Lørdag 17.4 2021",
+        title: "VBUK LAN 2021",
+        location: "Turbinen/Discord",
+        day: "Lørdag 17.4.2021",
         time: "08:00-23:00",
-        website: "https://lan.vbuk.no"
+        website: "https://chat.vbuk.no"
+      },
+      {
+        title: "Minecraft bygg din premie konkurranse",
+        location: "mc.vbuk.no",
+        day: "Lørdag 17.4.2021",
+        time: "08:00-21:00",
+        website: "https://chat.vbuk.no"
+      },
+      {
+        title: "Videodubbing konkurranse",
+        location: "Discord",
+        day: "Lørdag 17.4.2021",
+        time: "08:00-21:00",
+        website: "https://chat.vbuk.no"
+      },
+      {
+        title: "Minecraft Hungergame konkurranse",
+        location: "mc.vbuk.no",
+        day: "Lørdag 17.4.2021",
+        time: "10:00-",
+        website: "https://chat.vbuk.no"
+      },
+      {
+        title: "Among Us konkurranse",
+        location: "Discord",
+        day: "Lørdag 17.4.2021",
+        time: "13:00-",
+        website: "https://chat.vbuk.no"
+      },
+      {
+        title: "Rocket League konkurrane 2 per lag",
+        location: "Discord",
+        day: "Lørdag 17.4.2021",
+        time: "17:00-",
+        website: "https://chat.vbuk.no"
+      },
+      {
+        title: "Premieutdeling",
+        location: "Twitch",
+        day: "Lørdag 17.4.2021",
+        time: "22:00-",
+        website: "https://tv.vbuk.no"
       }
     ]
   })

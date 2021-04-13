@@ -7,7 +7,7 @@
             </v-list-item-icon>
             <v-list-item-content>
             <v-list-item-title>
-                <a href="https://discord.vbuk.no">discord.vbuk.no</a>
+                <a href="https://chat.vbuk.no">chat.vbuk.no</a>
             </v-list-item-title>
             <v-list-item-subtitle>Discord</v-list-item-subtitle>
             </v-list-item-content>
