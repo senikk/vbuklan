@@ -97,6 +97,25 @@
                 <li>Spillene du får spille hjemme gjelder også her</li>
               </ul>
             </Post>
+            <Post title="Premier">
+              <ul>
+                <li>Minecraft creative, bygg din egen premie
+                  <ul><li>1. plass 500,- Multicom + merchpakke</li><li>2. plass 200,- VBUK</li><li>3. plass Multicom t-skjorte + drikkeflaske</li></ul>
+                </li>
+                <li>Minecraft hungergame
+                  <ul><li>1. plass billett klatreparken Voss 1 person ca 400,-</li><li>2. premie 200,- VBUK</li><li>3. premie Multicom t-skjorte + drikkeflaske</li></ul>
+                </li>
+                <li>Among Us konkurranse
+                  <ul><li>1. plass 500,- gavekort Voss kommunikasjon</li><li>2. plass 200,- VBUK</li><li>3. plass Multicom t-skjorte + drikkeflaske</li></ul>
+                </li>
+                <li>Rocket League 2 per lag, lagpremie under + merch ting til hver av de fire på pallen
+                  <ul><li>1. plass 600,- VBUK</li><li>2. plass 400,- VBUK</li></ul>
+                </li>
+                <li>Videodubbing
+                  <ul><li>1. plass Marantz Umpire USB Mikrofon 620,- fra Voss Musikk</li><li>2. plass To stk kinobilletter fra Modalen kommune verdi ca 240,-</li><li>3. plass Multicom t-skjorte + drikkeflaske</li></ul>
+                </li> 
+              </ul>
+            </Post>
           </v-flex>
           <v-flex xs12 sm6 md3>
             <Newsletter form="2582612:q4l4t5"/>
