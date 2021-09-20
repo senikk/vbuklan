@@ -5,8 +5,8 @@
         <span class="font-weight-light">Vaksdal barne- og ungdomskorps</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
-      <v-btn text href="/#/lan" target="_blank">
-        <span class="mr-2">VBUK LAN</span>
+      <v-btn text href="https://lan.vbuk.no" target="_blank">
+        <span class="mr-2">VBUKLAN</span>
       </v-btn>
     </v-app-bar>
 
@@ -88,7 +88,7 @@ export default {
       {
         title: "Aspirantkorps",
         location: "Dale skule",
-        day: "Onsdager (fom 30.9 2020)",
+        day: "Onsdager (fom 20.10 2021)",
         time: "16:15-17:15"
       },
       {
@@ -120,11 +120,11 @@ export default {
     ],
     calendar: [
       {
-        title: "VBUK LAN 2021",
-        location: "Discord/Twitch/Turbinen",
-        day: "Lørdag 17.4.2021",
-        time: "08:00-23:00",
-        website: "https://chat.vbuk.no"
+        title: "VBUKLAN2",
+        location: "Turbinen",
+        day: "Lørdag 16.10.2021",
+        time: "09:00-21:00",
+        website: "https://vbuk.ticketco.events/no/nb/e/vbuklan2/hjemmeside"
       },
     ]
   })
