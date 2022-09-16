@@ -88,7 +88,7 @@ export default {
       {
         title: "Aspirantkorps",
         location: "Dale skule",
-        day: "Onsdager (fom 20.10 2021)",
+        day: "Onsdager",
         time: "16:15-17:15"
       },
       {
@@ -120,11 +120,39 @@ export default {
     ],
     calendar: [
       {
-        title: "VBUKLAN2",
+        title: "VBUKLAN4",
         location: "Turbinen",
-        day: "Lørdag 16.10.2021",
+        day: "Lørdag 8.10.2022",
         time: "09:00-21:00",
-        website: "https://vbuk.ticketco.events/no/nb/e/vbuklan2/hjemmeside"
+        website: "https://vbuk.ticketco.events/no/nb/e/vbuklan4/hjemmeside"
+      },
+      {
+        title: "VBUKLAN4",
+        location: "Turbinen",
+        day: "Søndag 9.10.2022",
+        time: "09:00-15:00",
+        website: "https://vbuk.ticketco.events/no/nb/e/vbuklan4/hjemmeside"
+      },
+      {
+        title: "VBUKLAN4 kurs i musikkproduksjon",
+        location: "Turbinen",
+        day: "Søndag 9.10.2022",
+        time: "12:00-14:00",
+        website: "https://vbuk.ticketco.events/no/nb/e/vbuklan4/hjemmeside"
+      },
+      {
+        title: "VBUKLAN5",
+        location: "Turbinen",
+        day: "Lørdag 1.4.2023",
+        time: "09:00-21:00",
+        website: ""
+      },
+      {
+        title: "VBUKLAN5",
+        location: "Turbinen",
+        day: "Søndag 2.4.2023",
+        time: "09:00-15:00",
+        website: ""
       },
     ]
   })
